@@ -7,26 +7,27 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Happy Birthday!</h1>
-  <p class="subtitle">Come back here on 27th January to choose another gift</p>
+  <h1>Happy 27th!</h1>
+  <!-- <p class="subtitle">Come back here on 27th January to choose another gift</p> -->
+  <p class="subtitle">choose another gift:</p>
 
   <div id="countdown-timer">
     <p id="timer"></p>
   </div>
   
 
-  <!-- <div class="choices">
-    <button class="choice-btn" onclick="submitChoice('Chocolate')">Chocolate</button>
-    <button class="choice-btn" onclick="submitChoice('Wine')">Wine</button>
+  <div class="choices">
+    <button class="choice-btn" onclick="submitChoice('Lindor')">Lindor</button>
+    <button class="choice-btn" onclick="submitChoice('Porta 6')">Porta 6</button>
     <button class="choice-btn" onclick="submitChoice('Book')">Book</button>
     <button class="choice-btn" onclick="submitChoice('Tea')">Tea</button>
-  </div> -->
+  </div>
 
   <div class="decor">
     <p>🎈 🎉 🎂 🎈 🎉</p>
   </div>
 
-  <!-- <script>
+  <script>
     function submitChoice(choice) {
       fetch('/submit', {
         method: 'POST',
@@ -44,8 +45,8 @@
         console.error('Error:', error);
       });
     }
-  </script> -->
+  </script>
 
-  <script src="timer.js"></script>
+  <!-- <script src="timer.js"></script> -->
 </body>
 </html>
