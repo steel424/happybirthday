@@ -40,3 +40,6 @@ body {
     font-size: 1.5em;
   }
   
+  .small-text {
+    font-size: 50%;
+  }
